@@ -1,0 +1,14 @@
+export const host = "http://localhost:8080";
+export const GetEvents = `${host}/api/scheduleevents/getData`;
+export const UpdateEvents = `${host}/api/scheduleevents/crudActions`;
+export const SignRoute = `${host}/api/user/signup`;
+export const LoginRoute = `${host}/api/user/login`;
+export const AllUserRoute = `${host}/api/user?search=`;
+export const AccesschatRoute = `${host}/api/chat`;
+export const GroupRemove = `${host}/api/chat/groupremove`;
+export const GroupAdd = `${host}/api/chat/groupadd`;
+export const GroupRename = `${host}/api/chat/rename`;
+export const CreateGroup = `${host}/api/chat/group`;
+export const MessageSend = `${host}/api/message`;
+export const Profileupdate = `${host}/api/user/profileupdate`;
+export const Fetchproject = `${host}/api/user/fetchproject`;
